@@ -1,12 +1,12 @@
 # Uso Básico do Terminal
 
-O _terminal_ é uma das ferramentas mais utilizadas quando estamos desenvolvendo alguma aplicação. Ele consegue nos fornecer várias maneiras _mais rápidas_ de fazer atividades mais triviais como criar, apagar ou renomear arquivos e diretórios. Portanto, é necessário aprender suas funcionalidades mais básicas e , aos poucos, irmos incrementando nossos aprendizados. Neste guia irei mostrar o uso mais básico do terminal e os comandos mais usados no cotidiano, além de algumas técnicas que agilizam seu uso.
+O _terminal_ é uma das ferramentas mais utilizadas quando estamos desenvolvendo alguma aplicação. Ele consegue nos fornecer várias maneiras _mais rápidas_ de fazer atividades mais triviais como criar, apagar ou renomear arquivos e diretórios. Portanto, é necessário aprender suas funcionalidades mais básicas e, aos poucos, irmos incrementando nossos aprendizados. Neste guia irei mostrar o uso mais básico do terminal e os comandos mais usados no cotidiano, além de algumas técnicas que agilizam seu uso.
 
 Antes de começarmos, precisamos entender dois fatores importantes.
 
-1. **Terminal** - Quando mencionamos a palavra terminal, estamos falando, geralmente, do shell, que é a aplicação que nos fornece os comandos e utilidades. Na maioria das distribuições Linux, o terminal (ou seja, o shell) utilizado por padrão é o **Bash**.
+1. Quando mencionamos a palavra **terminal**, estamos falando, geralmente, do _shell_, que é a aplicação que nos fornece os comandos e utilidades. Na maioria das distribuições Linux, o terminal (ou seja, o _shell_) utilizado por padrão é o **Bash**.
 
-2. Diferente do shell, terminal também pode referir ao **emulador de terminal**, que é basicamente o ambiente onde o shell está executando. Na maioria das distribuições Linux, o emulador de terminal depende do desktop-enviroment, que de maneira mais leiga podemos dizer que é o ambiente do sistema operacional. Por padrão o desktop-enviroment é o GNOME, e o emulador de terminal é o gnome-terminal. Se o ambiente for KDE, o emulador de terminal será o Konsole, por exemplo.
+2. Diferente do _shell_, terminal também pode referir ao **emulador de terminal**, que é basicamente o ambiente onde o _shell_ está executando. Na maioria das distribuições Linux, o emulador de terminal depende do _desktop-enviroment_, que de maneira mais leiga podemos dizer que é o ambiente do sistema operacional. Por padrão, na maioria das distribuições Linux, o desktop-enviroment é o **GNOME**, e o emulador de terminal é o **gnome-terminal**. Se o ambiente for **KDE**, o emulador de terminal será o **Konsole**, por exemplo.
 3. É importantes frizar que o emulador é apenas o ambiente onde o shell está sendo executado, e, geralmente, ele não interfere muito nas situações de uso cotidiano. Ele não altera qual é o shell utilizado, o **Bash** pode ser executado em ambos **gnome-terminal** ou **Konsole**.
 
 **Resumo:** **_shell_** é o conjunto de funcionalidades e comandos **_emulador de terminal_** é onde esse shell está sendo 'emulado' ou executado.
@@ -17,7 +17,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 - **Tab Completion** <kbd>Tab</kbd>
 
-  - Trata-se de utilizar o recurso de 'autocomplete' do shell, ou seja, digitamos apenas uma parte do comando ou funcionalidade e apertamos a tecla <kbd>Tab</kbd> e o terminal completa o restante do comando/funcionalidade.
+  - Trata-se de utilizar o recurso de **autocomplete** do shell, ou seja, digitamos apenas uma parte do comando ou funcionalidade e apertamos a tecla <kbd>Tab</kbd> e o terminal completa o restante do comando/funcionalidade.
 
   ***
 
@@ -45,7 +45,7 @@ Nos exemplos abaixo estou utilizando o **bash** no **gnome-terminal**, no sistem
 
 ![pwd command](./images/pwd.png)
 
-Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \'**p**rint **w**orking **d**irectory\'. Em outras palavras, ele simplesmente mostra em qual diretório estamos.
+Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**rint **w**orking **d**irectory\". Em outras palavras, ele simplesmente mostra em qual diretório estamos.
 
 ![pwd result](./images/pwd-result.png)
 
