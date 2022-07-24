@@ -23,3 +23,18 @@ _É primordial entender essa diferença pois essa terminologia muitas vezes conf
   - Tudo que digitamos no terminal fica guardado em um histórico próprio. Para acessá-lo, entre outras formas, usamos as teclas **ArrowUp / ArrowDown** do teclado.
 - Stop / ctrl + c
   - Quando digitamos um comando e ele está sendo executado mas, por exemplo percebemos que algo está errado ou que digitamos um comando errado, e o shell está executando outro comando, podemos apertar **ctrl + c** para 'parar' a execução do comando.
+
+## Comandos
+
+Utilizar comandos no terminal é algo muito simples, basta digitar o comando e apertar _Enter_, também conhecido como **Carriage Return** **<CR>** ou **Return**.
+
+- ls
+- mkdir
+- cd
+- rmdir
+- touch
+- echo
+- cat
+- rm
+- mv
+- cp
