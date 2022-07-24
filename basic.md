@@ -2,7 +2,7 @@
 
 O terminal é uma das ferramentas mais utilizadas quando estamos desenvolvendo alguma aplicação. Ele consegue nos fornecer várias maneiras mais rápidas de fazer atividades mais triviais como criar, apagar ou renomear arquivos e diretórios. Portanto, é necessário aprender suas funcionalidades mais básicas e , aos poucos, irmos incrementando nossos aprendizados. Neste guia irei mostrar o uso mais básico do terminal e os comandos mais usados no cotidiano, além de algumas técnicas que agilizam seu uso.
 
-Antes de começarmos, pricamos entender dois fatores importantes.
+Antes de começarmos, precisamos entender dois fatores importantes.
 
 1. **Terminal** - Quando mencionamos a palavra terminal, estamos falando, geralmente, do shell, que é a aplicação que nos fornece os comandos e utilidades. Na maioria das distribuições Linux, o terminal (ou seja, o Shell) utilizado por padrão é o **Bash**.
 
