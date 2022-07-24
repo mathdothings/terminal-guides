@@ -32,6 +32,8 @@ Utilizar comandos no terminal é algo muito simples, basta digitar o comando e a
 
 Perceba que digitei **pdw** no terminal. Esse comando é um acrônimo para \'**p**rint **w**orking **d**irectory\'. Em outras palavras, ele simplesmente mostra em qual diretório estamos navegando.
 
+![pwd result] (./images/pwd-result.png)
+
 - ls
 - mkdir
 - cd
