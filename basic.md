@@ -9,7 +9,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 2. Diferente do shell, terminal também pode referir ao **emulador de terminal**, que é basicamente o ambiente onde o shell está executando. Na maioria das distribuições Linux, o emulador de terminal depende do desktop-enviroment, que de maneira mais leiga podemos dizer que é o ambiente do sistema operacional. Por padrão o desktop-enviroment é o GNOME, e o emulador de terminal é o gnome-terminal. Se o ambiente for KDE, o emulador de terminal será o Konsole, por exemplo.
 3. É importantes frizar que o emulador é apenas o ambiente onde o shell própriamente dito está sendo executado, e, geralmente, ele não interfere muito nas situações de uso cotidiano.
 
-**Resumo:** _shell_ é o conjunto de funcionalidades e comandos _emulador de terminal_ é onde esse shell está sendo 'emulado' ou executado.
+**Resumo:** **_shell_** é o conjunto de funcionalidades e comandos **_emulador de terminal_** é onde esse shell está sendo 'emulado' ou executado.
 
 _É primordial entender essa diferença pois essa terminologia muitas vezes confunde quem está iniciando sua jornada com o uso do terminal._
 
