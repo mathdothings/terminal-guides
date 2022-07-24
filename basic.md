@@ -26,7 +26,7 @@ _É primordial entender essa diferença pois essa terminologia muitas vezes conf
 
 ## Comandos
 
-Utilizar comandos no terminal é algo muito simples, basta digitar o comando e apertar _Enter_, também conhecido como **Carriage Return** **<CR>** ou **Return**.
+Utilizar comandos no terminal é algo muito simples, basta digitar o comando e apertar _Enter_, também conhecido como **Carriage Return** **\<CR\>** ou **Return**.
 
 - ls
 - mkdir
