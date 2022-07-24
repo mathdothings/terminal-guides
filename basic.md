@@ -16,6 +16,7 @@ _É primordial entender essa diferença pois essa terminologia muitas vezes conf
 ## Técnicas
 
 - Tab Completion
+  -- Trata-se de utilizar o recurso de 'autocomplete' do shell, ou seja, digitamos apenas uma parte do comando ou funcionalidade e apertamos a tecla Tab e o terminal completa o restante do comando/funcionalidade.
 - Clear / ctrl + l
 - ArrowUp / ArrowDown
 - Stop / ctrl + c
