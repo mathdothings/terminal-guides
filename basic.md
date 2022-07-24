@@ -11,7 +11,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 **Resumo:** shell é o conjunto de funcionalidades e comandos, emulador de terminal é onde esse shell está sendo 'emulado' ou executado.
 
-**É primordial entender essa diferença pois essa terminologia muitas vezes confunde quem está iniciando sua jornada com o uso do terminal.**
+_\*É primordial entender essa diferença pois essa terminologia muitas vezes confunde quem está iniciando sua jornada com o uso do terminal._
 
 ## Técnicas
 
