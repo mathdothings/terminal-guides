@@ -16,7 +16,10 @@ _É primordial entender essa diferença pois essa terminologia muitas vezes conf
 ## Técnicas
 
 - Tab Completion
-  -- Trata-se de utilizar o recurso de 'autocomplete' do shell, ou seja, digitamos apenas uma parte do comando ou funcionalidade e apertamos a tecla Tab e o terminal completa o restante do comando/funcionalidade.
+  - Trata-se de utilizar o recurso de 'autocomplete' do shell, ou seja, digitamos apenas uma parte do comando ou funcionalidade e apertamos a tecla Tab e o terminal completa o restante do comando/funcionalidade.
 - Clear / ctrl + l
+  - Podemos digitar o comando **clear** para limpar a tela do terminal. Lembrando que esse comando não limpa realmente o histórico de comandos ou os comandos digitados, ele apenas vai dar um **scrollup** em tudo que está na tela do terminal e deixar a tela 'limpa', esse comando é muito utilizado e, por isso, ele tem um atalho próprio que na maioria dos emuladores é o **ctrl + l**.
 - ArrowUp / ArrowDown
+  - Tudo que digitamos no terminal fica guardado em um histórico próprio. Para acessá-lo, entre outras formas, usamos as teclas **ArrowUp / ArrowDown** do teclado.
 - Stop / ctrl + c
+  - Quando digitamos um comando e ele está sendo executado mas, por exemplo percebemos que algo está errado ou que digitamos um comando errado, e o shell está executando outro comando, podemos apertar **ctrl + c** para 'parar' a execução do comando.
