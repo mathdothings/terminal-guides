@@ -6,7 +6,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 1. Quando mencionamos a palavra **terminal**, estamos falando, geralmente, do _shell_, que é a aplicação que nos fornece os comandos e utilidades. Na maioria das distribuições Linux, o terminal (ou seja, o _shell_) utilizado por padrão é o **Bash**.
 
-2. Diferente do _shell_, terminal também pode referir ao **emulador de terminal**, que é basicamente o ambiente onde o _shell_ está executando. Na maioria das distribuições Linux, o emulador de terminal depende do _desktop-enviroment_, que de maneira mais leiga podemos dizer que é o ambiente do sistema operacional. Por padrão, na maioria das distribuições Linux, o _desktop-enviroment_ é o **GNOME**, e o emulador de terminal é o **gnome-terminal**. Se o ambiente for **KDE**, o emulador de terminal será o **Konsole**, por exemplo.
+2. Diferente do _shell_, terminal também pode referir ao **emulador de terminal**, que é basicamente o ambiente onde o _shell_ está executando. Na maioria das distribuições Linux, o emulador de terminal depende do _desktop-enviroment_, que de maneira mais leiga podemos dizer que é o ambiente do sistema operacional. Por padrão, na maioria das distribuições Linux, o _desktop-enviroment_ é o **GNOME**, e o emulador de terminal é o **gnome-terminal**. Se o ambiente for **KDE**, o emulador de terminal será o **Konsole**.
 3. É importantes frizar que o emulador é apenas o ambiente onde o shell está sendo executado, e, geralmente, ele não interfere muito nas situações de uso cotidiano. Ele não altera qual é o shell utilizado, o **Bash** pode ser executado em ambos **gnome-terminal** ou **Konsole**.
 
 **Resumo:** **_shell_** é o conjunto de funcionalidades e comandos, **_emulador de terminal_** é onde esse shell está sendo 'emulado' ou executado.
@@ -23,7 +23,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 - **clear** <kbd>CTRL</kbd> + <kbd>L</kbd>
 
-  - Podemos digitar o comando **clear** para limpar a tela do terminal. Lembrando que esse comando não limpa realmente o histórico de comandos ou os comandos digitados, ele apenas vai dará um **scrollup** em tudo que está na tela do terminal e deixar a tela "limpa". Esse comando é muito utilizado e, por isso, ele tem um atalho próprio que na maioria dos emuladores é o <kbd>CTRL</kbd> + <kbd>L</kbd>.
+  - Podemos digitar o comando **clear** para limpar a tela do terminal. Lembrando que esse comando não limpa realmente o histórico de comandos ou os comandos digitados, ele apenas dará um **scrollup** em tudo que está na tela do terminal e deixar a tela "limpa". Esse comando é muito utilizado e, por isso, ele tem um atalho próprio que na maioria dos emuladores é o <kbd>CTRL</kbd> + <kbd>L</kbd>.
 
   ***
 
