@@ -27,27 +27,60 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
   ***
 
+- **cancel** <kbd>CTRL</kbd> + <kbd>C</kbd>
+
+  - Quando digitamos um comando e ele **está sendo executado**, se quisermos **cancelar** a execução do mesmo, podemos apertar <kbd>CTRL</kbd> + <kbd>C</kbd>.
+
+---
+
+- **done** <kbd>CTRL</kbd> + <kbd>D</kbd>
+
+  - Quando digitamos um comando e **ele está sendo executado**, se quisermos **finalizar** a execução do mesmo, podemos apertar <kbd>CTRL</kbd> + <kbd>D</kbd>. Diferente de cancelar, este atalho apenas informa ao shell que não queremos mais realizar posteriores operações neste comando, portanto, pode finalizar a tarefa. Caso nenhum comando específico esteja sendo executado, esse atalho irá fechar o terminal.
+
+  ***
+
 - <kbd>&darr;</kbd> e <kbd>&uarr;</kbd>
 
   - Tudo que digitamos no terminal fica guardado em um histórico próprio. Para acessá-lo, entre outras formas, usamos as teclas <kbd>&darr;</kbd> e <kbd>&uarr;</kbd> do teclado.
 
   ***
 
-- **kill** <kbd>CTRL</kbd> + <kbd>C</kbd>
-
-  - Quando digitamos um comando e ele **está sendo executado**, se quisermos **cancelar** a execução do mesmo, podemos apertar <kbd>CTRL</kbd> + <kbd>C</kbd>.
-
-  ***
-
 ## Comandos
 
-Nos exemplos abaixo estou utilizando o **Bash** no **gnome-terminal**. Utilizar comandos no terminal é muito simples, basta digitar o comando e apertar <kbd>ENTER</kbd>.
+Geralmente, quando iniciamos uma nova aplicação shell, vemos o seguinte:
 
-![pwd command](./images/pwd.png)
+![shell](./images/shell.png)
 
-Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**rint **w**orking **d**irectory\". Em outras palavras, ele simplesmente mostra em qual diretório estamos.
+Como o espaço disponível para mostrar informações é muito limitado, em geral, os terminais optam por mostrar certos elementos ou símbolos que significam algo específico. Vamos entender melhor cada elemento exibido.
+
+1. **mathdothings** ⇒ nome do **usuário** ou **user**, inglês;
+
+2. **@** ⇒ símbolo utilizado para indentificar que esse usuário está utilizando o **hostname**, que geralmente é o nome do computador, como se fosse _mathdothings está utilizando o computador matrix_, onde matrix foi o nome que eu defini para o meu computador;
+
+3. **matrix** ⇒ nome do **hostname** ou nome do computador;
+
+4. **:** _(dois pontos / colon, em inglês)_ ⇒ símbolo utilizado para separar o hostname do working directory, ou seja, do diretório atual;
+
+5. **~** _(til / tilde, em inglês)_ ⇒ símbolo utilizado para representar o **home** directory do user. **~** e **/home/\<user\>** são equivalentes. Lembre-se que \<user\> deve ser substituído pelo nome do usuário, sem os \<\>.  
+   **Ex.:** `/home/mathdothings`
+
+6. **$** _(prompt)_ ⇒ símbolo utilizado para indicar que podemos executar comandos. Sempre que um comando for resolvido ou abrirmos uma nova aplicação shell, esse símbolo irá aparecer como sinal que outros comandos já podem ser inseridos.
+
+Deixei os nomes de alguns símbolos em inglês para referêcia, pois é muito comum expressões como _colon separator_, _tilde directory_ ou _command prompt_.
+
+---
+
+Nos exemplos abaixo estou utilizando o **Bash** no **gnome-terminal**.
+
+Utilizar comandos no terminal é muito simples, basta digitar o comando e apertar <kbd>ENTER</kbd>.
+
+![pwd](./images/pwd.png)
+
+Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**rint **w**orking **d**irectory\". Em outras palavras, ele simplesmente mostra em qual **diretório** estamos.
 
 ![pwd result](./images/pwd-result.png)
+
+Antes de proseguirmos, irei explicar um pouco sobre **diretório** ou **directory**, em inglês. Um diretório é, de forma simples, um local onde podemos armazenar arquivos ou outros subdiretórios, é o equivalente a uma **pasta** em um ambiente gráfico. Daqui em diante passarei a utilizar o termo **directory/subdirectory** ao invés de **diretório/subdiretório**. Ou seja, quando mencionar directory estou me referindo a uma pasta, e, o mesmo para subdirectory, uma subpasta.
 
 - / ~ -
 - ls
