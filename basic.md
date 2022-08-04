@@ -47,7 +47,9 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 ## Diretórios
 
-Antes de proseguirmos com a utilização de comandos, vamos entender um pouco sobre a estrutura dos diretórios no Linux. Diferente do _Windows_ onde os dispositivos são representados por letras como **C** ou **D**, no Linux, os diretórios são separados em uma certa hierarquia, a **F**ilesystem **H**ierarchy **S**tandard **(FHS)**. A FHS define um padrão para a estrutura dos diretórios. Abaixo podemos ver uma imagem que ilustra um pouco dessa estrutura.
+Antes de proseguirmos, irei explicar um pouco sobre **diretório** ou **directory**, em inglês. Um diretório é, de forma simples, um local onde podemos armazenar arquivos ou outros subdiretórios, é o equivalente a uma **pasta** em um ambiente gráfico. Daqui em diante passarei a utilizar o termo **directory/subdirectory** ao invés de **diretório/subdiretório**. Ou seja, quando mencionar directory estou me referindo a uma pasta, e, o mesmo para subdirectory, uma subpasta. Vamos entender um pouco a hierarquia de diretórios do Linux.
+
+Diferente do _Windows_ onde os dispositivos são representados por letras como **C** ou **D**, no Linux, os diretórios são separados em uma certa hierarquia, a **F**ilesystem **H**ierarchy **S**tandard **(FHS)**. A FHS define um padrão para a estrutura dos diretórios. Abaixo podemos ver uma imagem que ilustra um pouco dessa estrutura.
 
 ![linux direcoty hierarchy](./images/linux-directories.png)
 
@@ -90,8 +92,6 @@ Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**
 
 ![pwd result](./images/pwd-result.png)
 
-Antes de proseguirmos, irei explicar um pouco sobre **diretório** ou **directory**, em inglês. Um diretório é, de forma simples, um local onde podemos armazenar arquivos ou outros subdiretórios, é o equivalente a uma **pasta** em um ambiente gráfico. Daqui em diante passarei a utilizar o termo **directory/subdirectory** ao invés de **diretório/subdiretório**. Ou seja, quando mencionar directory estou me referindo a uma pasta, e, o mesmo para subdirectory, uma subpasta.
-
 - / ~ - man exit
 - ls
 - mkdir
@@ -102,4 +102,5 @@ Antes de proseguirmos, irei explicar um pouco sobre **diretório** ou **director
 - cat
 - rm
 - mv
+- cp
 - cp
