@@ -45,6 +45,17 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
   ***
 
+## Diretórios
+
+Antes de proseguirmos com a utilização de comandos, vamos entender um pouco sobre a estrutura dos diretórios no Linux. Diferente do _Windows_ onde os dispositivos são representados por letras como **C** ou **D**, no Linux, os diretórios são separados em uma certa hierarquia, a **F**ilesystem **H**ierarchy **S**tandard **(FHS)**. A FHS define um padrão para a estrutura dos diretórios. Abaixo podemos ver uma imagem que ilustra um pouco dessa estrutura.
+
+![linux direcoty hierarchy](./images/linux-directories.png)
+
+Não vou entrar em detalhes sobre cada sub directory pois esse não é o intuito deste guia.  
+O importante a entender aqui é que a <kbd>/</kbd> _(barra)_ representa o **root** direcotry, em outras palavras, a raíz de todos os directories do sistema.
+
+A maioria dos dados do seu usuário, por exemplo, ficam dentro do sub directory <kbd>/home</kbd> e a maioria dos binários (os programas que executados, ou executados pelo sistema) mais importantes ficam em <kbd>/bin</kbd>. Já o equivalente aos dispositivos (_devices_) **C** ou **D** do Windows, ficam em <kbd>/dev</kbd>.
+
 ## Comandos
 
 Geralmente, quando iniciamos uma nova aplicação shell, vemos o seguinte:
@@ -53,18 +64,17 @@ Geralmente, quando iniciamos uma nova aplicação shell, vemos o seguinte:
 
 Como o espaço disponível para mostrar informações é muito limitado, em geral, os terminais optam por mostrar certos elementos ou símbolos que significam algo específico. Vamos entender melhor cada elemento exibido.
 
-1. **mathdothings** ⇒ nome do **usuário** ou **user**, inglês;
+1. `mathdothings` ⇒ nome do **usuário** ou **user**, inglês;
 
-2. **@** ⇒ símbolo utilizado para indentificar que esse usuário está utilizando o **hostname**, que geralmente é o nome do computador, como se fosse _mathdothings está utilizando o computador matrix_, onde matrix foi o nome que eu defini para o meu computador;
+2. <kbd>@</kbd> ⇒ símbolo utilizado para indentificar que esse usuário está utilizando o **hostname**, que geralmente é o nome do computador, como se fosse _mathdothings está utilizando o computador matrix_, onde matrix foi o nome que eu defini para o meu computador;
 
-3. **matrix** ⇒ nome do **hostname** ou nome do computador;
+3. `matrix` ⇒ nome do **hostname** ou nome do computador;
 
-4. **:** _(dois pontos / colon, em inglês)_ ⇒ símbolo utilizado para separar o hostname do working directory, ou seja, do diretório atual;
+4. <kbd>:</kbd> _(dois pontos / colon, em inglês)_ ⇒ símbolo utilizado para separar o hostname do working directory, ou seja, do diretório atual;
 
-5. **~** _(til / tilde, em inglês)_ ⇒ símbolo utilizado para representar o **home** directory do user. **~** e **/home/\<user\>** são equivalentes. Lembre-se que \<user\> deve ser substituído pelo nome do usuário, sem os \<\>.  
-   **Ex.:** `/home/mathdothings`
+5. <kbd>~</kbd> _(til / tilde, em inglês)_ ⇒ símbolo utilizado para representar o **home** directory do user. **~** e **/home/\<user\>** são equivalentes. Lembre-se que \<user\> deve ser substituído pelo nome do usuário, sem os \< \>. **Ex.:** `/home/mathdothings`;
 
-6. **$** _(prompt)_ ⇒ símbolo utilizado para indicar que podemos executar comandos. Sempre que um comando for resolvido ou abrirmos uma nova aplicação shell, esse símbolo irá aparecer como sinal que outros comandos já podem ser inseridos.
+6. <kbd>$</kbd> _(prompt)_ ⇒ símbolo utilizado para indicar que podemos executar comandos. Sempre que um comando for resolvido ou abrirmos uma nova aplicação shell, esse símbolo irá aparecer como sinal que outros comandos já podem ser inseridos.
 
 Deixei os nomes de alguns símbolos em inglês para referêcia, pois é muito comum expressões como _colon separator_, _tilde directory_ ou _command prompt_.
 
@@ -82,7 +92,7 @@ Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**
 
 Antes de proseguirmos, irei explicar um pouco sobre **diretório** ou **directory**, em inglês. Um diretório é, de forma simples, um local onde podemos armazenar arquivos ou outros subdiretórios, é o equivalente a uma **pasta** em um ambiente gráfico. Daqui em diante passarei a utilizar o termo **directory/subdirectory** ao invés de **diretório/subdiretório**. Ou seja, quando mencionar directory estou me referindo a uma pasta, e, o mesmo para subdirectory, uma subpasta.
 
-- / ~ -
+- / ~ - man exit
 - ls
 - mkdir
 - cd
