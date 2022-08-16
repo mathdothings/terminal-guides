@@ -13,7 +13,7 @@ Antes de começarmos, precisamos entender dois fatores importantes.
 
 **_É primordial entender essa diferença pois essa terminologia muitas vezes confunde quem está iniciando sua jornada com o uso do terminal._**
 
-## Técnicas
+## Atalhos (Shortcuts)
 
 - **Tab Completion** <kbd>Tab</kbd>
 
@@ -58,7 +58,7 @@ O importante a entender aqui é que a <kbd>/</kbd> _(barra)_ representa o **root
 
 A maioria dos dados do seu usuário, por exemplo, ficam dentro do sub directory <kbd>/home</kbd> e a maioria dos binários (os programas que executados, ou executados pelo sistema) mais importantes ficam em <kbd>/bin</kbd>. Já o equivalente aos dispositivos (_devices_) **C** ou **D** do Windows, ficam em <kbd>/dev</kbd>.
 
-## Comandos
+## Entendendo a tela inicial
 
 Geralmente, quando iniciamos uma nova aplicação shell, vemos o seguinte:
 
@@ -80,7 +80,7 @@ Como o espaço disponível para mostrar informações é muito limitado, em gera
 
 Deixei os nomes de alguns símbolos em inglês para referêcia, pois é muito comum expressões como _colon separator_, _tilde directory_ ou _command prompt_.
 
----
+## Comandos (Commands)
 
 Nos exemplos abaixo estou utilizando o **Bash** no **gnome-terminal**.
 
@@ -92,6 +92,32 @@ Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**
 
 ![pwd result](./images/pwd-result.png)
 
+## Bandeiras (Flags)
+
+As **flags** são parâmetros que podemos passar para os comandos, modificando um pouco sua funcionalidade. Elas podem aparecer de duas formas, uma mais curta e outra mais longa e cada uma têm suas características. A forma curta é ideal para executar **vários argumentos**. Já a forma longa só funciona com alguns argumentos e geralmente só é utilizado para fornecer **um único** parâmetro pois a forma longa é mais trabalhosa de se digitar. Abaixo ilustrarei melhor como utilizar as flags.
+
+## Comandos
+
+## ls - listar (list)
+
+O comando **ls** é bem simples, ele apenas mostra ou lista o contéudo de um directory. Se utilizarmos ele sem um **path** específico, ele mostra o conteúdo do directory atual.
+
+_\*Em um guia posterior irei explicar mais sobre path_.
+
+![ls result](./images/ls.png)
+
+Como você pode ver, estou no directory <kbd>/home/\<username\></kbd> ou simplesmente **home** e a imagem mostra o resultado do comando **ls**. Podemos ver que o terminal, no meu caso, exibe os directories em cor azul e o arquivos (files) em cor branca.
+
+Neste mesmo directory existem outros directories e files que não são exibidos com o uso convencional do comando ls. Porém, podemos utilizar as flags para mudar o comportamento do ls, fazendo com que ele exiba todo o conteúdo dentro de um directory.
+
+Irei utilizar o comando <kbd>ls -a</kbd> para alterar o comando ls, forçando-o a exibir **todos (all)** os directories e files. Perceba que o <kbd>-a</kbd> ou <kbd>\-\-all</kbd> são, rescpectivamente, as flags em forma curta e longa.
+O mesmo resultado será exibido com o comando <kbd>ls \-\-all</kbd>. Você pode executar ambos e comparar os resultados.
+
+![ls with flag -a](./images/ls-a.png)
+![ls with flag --all](./images/ls--all.png)
+
+Existe uma diferença entre as formas curta e longa que é interessante conhecê-la. Para entender melhor, vamos tentar executar **mais de uma flag** para o comando. Podemos executar <kbd>\<command\> --help</kbd> para exibir o arquivo de ajuda deste comando, que geralmente nos diz o que o comando faz e informa algumas flags. Perceba que <kbd>\-\-help</kbd> é uma flag que funciona com quase todos os comandos e, a maioria deles, só possui a versão longa, sendo o <kbd>-h</kbd> um argumento diferente do --help.
+
 - / ~ - man exit
 - ls
 - mkdir
@@ -102,5 +128,6 @@ Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**
 - cat
 - rm
 - mv
+- cp
 - cp
 - cp
