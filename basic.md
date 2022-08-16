@@ -92,11 +92,9 @@ Perceba que digitei `pdw` no terminal. Esse comando é um acrônimo para \"**p**
 
 ![pwd result](./images/pwd-result.png)
 
-## Bandeiras (Flags)
+#### Bandeiras (Flags)
 
 As **flags** são parâmetros que podemos passar para os comandos, modificando um pouco sua funcionalidade. Elas podem aparecer de duas formas, uma mais curta e outra mais longa e cada uma têm suas características. A forma curta é ideal para executar **vários argumentos**. Já a forma longa só funciona com alguns argumentos e geralmente só é utilizado para fornecer **um único** parâmetro pois a forma longa é mais trabalhosa de se digitar. Abaixo ilustrarei melhor como utilizar as flags.
-
-## Comandos
 
 ## ls - listar (list)
 
@@ -116,7 +114,9 @@ O mesmo resultado será exibido com o comando <kbd>ls \-\-all</kbd>. Você pode 
 ![ls with flag -a](./images/ls-a.png)
 ![ls with flag --all](./images/ls--all.png)
 
-Existe uma diferença entre as formas curta e longa que é interessante conhecê-la. Para entender melhor, vamos tentar executar **mais de uma flag** para o comando. Podemos executar <kbd>\<command\> --help</kbd> para exibir o arquivo de ajuda deste comando, que geralmente nos diz o que o comando faz e informa algumas flags. Perceba que <kbd>\-\-help</kbd> é uma flag que funciona com quase todos os comandos e, a maioria deles, só possui a versão longa, sendo o <kbd>-h</kbd> um argumento diferente do --help.
+Existe uma diferença entre as formas curta e longa que é interessante conhecê-la. Para entender melhor, vamos tentar executar **mais de uma flag** para o comando. Podemos executar <kbd>\<command\> --help</kbd> para exibir o arquivo de ajuda deste comando, que geralmente nos diz o que o comando faz e informa algumas flags. Perceba que <kbd> \-\-help</kbd> é uma flag que funciona com quase todos os comandos e, a maioria deles, só possui a versão longa, sendo o <kbd>-h</kbd> um argumento diferente.
+
+![ls with flag --help](./images/ls--help.png)
 
 - / ~ - man exit
 - ls
@@ -128,6 +128,4 @@ Existe uma diferença entre as formas curta e longa que é interessante conhecê
 - cat
 - rm
 - mv
-- cp
-- cp
 - cp
