@@ -1,6 +1,6 @@
 <style>
 kbd {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 </style>
 
