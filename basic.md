@@ -84,6 +84,8 @@ Deixei os nomes de alguns símbolos em inglês para referêcia, pois é muito co
 
 Nos exemplos abaixo estou utilizando o **Bash** no **gnome-terminal**.
 
+* **Obs.:** _Para sair do shell a qualquer momento, basta apertar_ <kbd>CTRL + D</kbd> _ou dititar_ <kbd>exit</kbd> _e apertar_ <kbd>ENTER</kbd>.
+
 Utilizar comandos no terminal é muito simples, basta digitar o comando e apertar <kbd>ENTER</kbd>.
 
 ![pwd](./images/pwd.png)
@@ -114,18 +116,42 @@ O mesmo resultado será exibido com o comando <kbd>ls \-\-all</kbd>. Você pode 
 ![ls with flag -a](./images/ls-a.png)
 ![ls with flag --all](./images/ls--all.png)
 
-Existe uma diferença entre as formas curta e longa que é interessante conhecê-la. Para entender melhor, vamos tentar executar **mais de uma flag** para o comando. Podemos executar <kbd>\<command\> --help</kbd> para exibir o arquivo de ajuda deste comando, que geralmente nos diz o que o comando faz e informa algumas flags. Perceba que <kbd> \-\-help</kbd> é uma flag que funciona com quase todos os comandos e, a maioria deles, só possui a versão longa, sendo o <kbd>-h</kbd> um argumento diferente.
+Existe uma diferença entre as formas curta e longa que é interessante conhecê-la. Para entender melhor, vamos tentar executar **mais de uma flag** para o comando. Podemos executar <kbd>\<command\> --help</kbd> para exibir o arquivo de ajuda deste comando, que geralmente nos diz o que o comando faz e informa algumas flags. Perceba que <kbd>--help</kbd> é uma flag que funciona com quase todos os comandos e, a maioria deles, só possui a versão longa, sendo o <kbd>-h</kbd> um argumento diferente.
 
 ![ls with flag --help](./images/ls--help.png)
 
-- / ~ - man exit
+Agora que já sabemos como executar um comando e atribuir a ele flags, vamos começar a utilizar outros comandos. O próximo comando que iremos usar é o <kbd>mkdir</kbd>. Este comando é um acrônimo para **make directory**, ou seja ele cria um directory.
+
+![mkdir](./images/mkdir.png)
+
+Apenas digitei <kbd>mkdir test</kbd> e apertei <kbd>ENTER</kbd> e se nenhuma mensagem de erro foi exibida, significa que o comando foi executado com sucesso. Alías, sempre que executamos algo e não recebemos nenhuma mensagem de erro, é um bom sinal de que tudo foi executado corretamente. **Mas cuidado, nem sempre isso é verdade**.
+
+Podemos user o comando <kbd>ls</kbd> para verificar se o diretório realmente foi criado.
+
+![mkdir result](./images/mkdir-result.png)
+
+Perceba que o diretório realmente foi criado. Vamos dar uma olhada na flag <kbd>--help</kbd> para o comando <kbd>mkdir</kbd>.
+
+![mkdir with flag --help](./images/mkdir--help.png)
+Com o <kbd>--help</kbd> podemos ver algumas flags. Podemos ver que existem as flags <kbd>-p</kbd> e <kbd>--parents</kbd>. Estas são as versões, respectivamente, curta e longa, do comando. Vamos tentar utilizá-las. Vou usar a versão curta.
+
+![mkdir with -p flag](./images/mkdir-p.png)
+Perceba que utilizei a flag <kbd>-p</kbd> e, por isto, foi possível criar 2 diretórios de 1 vez, o <kbd>my_dir</kbd> e o subdiretório <kbd>new_sub_dir</kbd>. Para verificarmos que o subdiretório realmente foi criado, vamos utilizar um novo comando, o <kbd>cd</kbd> ele é um acrônimio para **change directory**. Isso significa que agora podemos criar diretórios e navegar entre eles.
+
+![cd](./images/cd.png)
+Utilizamos o comando <kbd>cd</kbd> para trocar o diretório para o <kbd>my_dir</kbd> e em seguida utilizamos novamente o <kbd>ls</kbd> para listar o conteúdo, mostrando que, de fato, o subdiretório foi criado como esperado.
+
+Para utilizarmos com mais eficácia o commando <kbd>cd</kbd> precisamos entender como funciona os **paths** ou **caminhos**.
+
 - ls
 - mkdir
 - cd
 - rmdir
 - touch
+<!--
+TODO ->  
 - echo
 - cat
 - rm
 - mv
-- cp
+- cp -->
