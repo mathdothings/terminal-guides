@@ -124,7 +124,7 @@ Agora que já sabemos como executar um comando e atribuir a ele flags, vamos com
 
 ![mkdir](./images/mkdir.png)
 
-Apenas digitei <kbd>mkdir test</kbd> e apertei <kbd>ENTER</kbd> e se nenhuma mensagem de erro foi exibida, significa que o comando foi executado com sucesso. Alías, sempre que executamos algo e não recebemos nenhuma mensagem de erro, é um bom sinal de que tudo foi executado corretamente. **Mas cuidado, nem sempre isso é verdade**.
+Apenas digitei <kbd>mkdir test</kbd> e apertei <kbd>ENTER</kbd> e se nenhuma mensagem de erro foi exibida, significa que o comando foi executado com sucesso. Aliás, sempre que executamos algo e não recebemos nenhuma mensagem de erro, é um bom sinal de que tudo foi executado corretamente. **Mas cuidado, nem sempre isso é verdade**.
 
 Podemos user o comando <kbd>ls</kbd> para verificar se o diretório realmente foi criado.
 
@@ -133,12 +133,15 @@ Podemos user o comando <kbd>ls</kbd> para verificar se o diretório realmente fo
 Perceba que o diretório realmente foi criado. Vamos dar uma olhada na flag <kbd>--help</kbd> para o comando <kbd>mkdir</kbd>.
 
 ![mkdir with flag --help](./images/mkdir--help.png)
+
 Com o <kbd>--help</kbd> podemos ver algumas flags. Podemos ver que existem as flags <kbd>-p</kbd> e <kbd>--parents</kbd>. Estas são as versões, respectivamente, curta e longa, do comando. Vamos tentar utilizá-las. Vou usar a versão curta.
 
 ![mkdir with -p flag](./images/mkdir-p.png)
+
 Perceba que utilizei a flag <kbd>-p</kbd> e, por isto, foi possível criar 2 diretórios de 1 vez, o <kbd>my_dir</kbd> e o subdiretório <kbd>new_sub_dir</kbd>. Para verificarmos que o subdiretório realmente foi criado, vamos utilizar um novo comando, o <kbd>cd</kbd> ele é um acrônimio para **change directory**. Isso significa que agora podemos criar diretórios e navegar entre eles.
 
 ![cd](./images/cd.png)
+
 Utilizamos o comando <kbd>cd</kbd> para trocar o diretório para o <kbd>my_dir</kbd> e em seguida utilizamos novamente o <kbd>ls</kbd> para listar o conteúdo, mostrando que, de fato, o subdiretório foi criado como esperado.
 
 Para utilizarmos com mais eficácia o commando <kbd>cd</kbd> precisamos entender como funciona os **paths** ou **caminhos**.
