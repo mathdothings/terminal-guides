@@ -1,3 +1,9 @@
+<style>
+kbd {
+  font-size: 1.25rem;
+}
+</style>
+
 # Uso Básico do Terminal
 
 O _terminal_ é uma das ferramentas mais utilizadas quando estamos desenvolvendo alguma aplicação. Ele consegue nos fornecer várias maneiras **mais rápidas** de fazer atividades mais triviais como criar, apagar ou renomear arquivos e diretórios. Portanto, é necessário aprender suas funcionalidades mais básicas e, aos poucos, irmos incrementando nossos aprendizados. Neste guia irei mostrar o uso mais básico do terminal e os comandos mais usados no cotidiano, além de algumas técnicas que agilizam seu uso.
@@ -145,6 +151,12 @@ Perceba que utilizei a flag <kbd>-p</kbd> e, por isto, foi possível criar 2 dir
 Utilizamos o comando <kbd>cd</kbd> para trocar o diretório para o <kbd>my_dir</kbd> e em seguida utilizamos novamente o <kbd>ls</kbd> para listar o conteúdo, mostrando que, de fato, o subdiretório foi criado como esperado.
 
 Para utilizarmos com mais eficácia o commando <kbd>cd</kbd> precisamos entender como funciona os **paths** ou **caminhos**.
+
+Como podemos perceber, a flag <kbd>-p</kbd> pode ser utilizada para criar subdiretórios mesmo se o diretório raíz não existir. O comando <kbd>mkdir</kbd> também pode ser executado para criar mais de um diretório ao mesmo tempo. Vamos dar um exemplo.
+
+![mkdir creating multiples dirs](./images/mkdir-multi-dir.png)
+
+Perceba que foram criados três diretórios com um único comando. Se você já fez pastas através da interface gráfica com certeza percebeu que este comando é muito mais eficiente e rápido para esta finalidade.
 
 - ls
 - mkdir
